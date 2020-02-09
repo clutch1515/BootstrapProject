@@ -58,30 +58,33 @@
         </div>
     </nav>
 
-<div class="topLine">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4 order-sm-last col-md-3">
-                <h2 class="title text-sm-right">Discover & Review</h2>
-            </div>
-            <div class="col">
-                <h3 class="title text-sm-left">Our Campsites</h3>
-                <p>Explore our growing database of curated campsites and leave your own reviews!</p>
-            </div>
+ <div class="topLine">
+    <div class="row">
+        <div class="col-sm-3">   
+            <img src="breadcrumb-trail-thumb.jpg" alt="breadcrumb-trail-thumb" class="img-thumbnail d-flex ml-2">
+        </div>
+        <div class="col-sm-6">
+            <h3 class="headLine">Our Campsites</h3>
+            <p>Explore our growing database of curated campsites and leave your own reviews!</p>
+        </div>  
+        <div class="col-sm-3">
+            <h2 class="title text-sm-left">Discover and Review</h2>
+        </div>
         </div>
     </div>
 </div>
 
+
 <div class="middleLine">
     <div class="row">
-        <div class="col-sm-3 col-md-3">
+        <div class="col-sm-3">
             <h2 class="title text-sm-left">Featured Campsites</h2>
         </div>
-            <div class="col-6">
+            <div class="col-sm-6">
                 <h3 class="headLine">React Lake Campground</h3>
                 <p> Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
             </div>  
-            <div class="col-3">   
+            <div class="col-sm-3">   
                 <img src="react-lake-thumb.jpg" alt="react-lake-thumb" class="img-thumbnail d-flex ml-2">
             </div>
         </div>
@@ -89,14 +92,17 @@
 </div>
 
 <div class="bottomLine">
-        <div class="row">
-            <div class="col-sm-4 order-sm-last col-md-3">
-                <h2 class="title text-sm-right">Our Community Partners</h2>
-            </div>
-            <div class="col">
-                <h3 class="title">Bootstrap Outfitters</h3>
-        		<p>Bootstrap Outfitters supplies you with the gear you need at prices you can't beat.</p>
-            </div>
+    <div class="row">
+        <div class="col-sm-3">   
+            <img src="bootstrap-thumb.png" alt="bootstrap-thumb" class="img-thumbnail d-flex ml-2">
+        </div>
+        <div class="col-sm-6">
+            <h3 class="headLine">Bootstrap Outfitters</h3>
+            <p>Bootstrap Outfitters supplies you with the gear you need at prices you can't beat.</p>
+        </div>  
+        <div class="col-sm-3">
+            <h2 class="title text-sm-left">Our Community Partners</h2>
+        </div>
         </div>
     </div>
 </div>
@@ -106,12 +112,12 @@
         <div class="card">
             <h3 class="card-header bg-info text-white">
                 Reserve a site
-                </h3>
+            </h3>
                 <div class="card-body">
                     <form id="reserveForm">
                             <div class="form-row">
-                                <label class="col-sm-6">Number of Campers</label>
-                                <select class="form-control" name="nuCampers" id="Nucampers" >
+                                <label class="col-xs-12 col-sm-6">Number of Campers</label>
+                                <select class="form-control col-xs-12 col-sm-6" name="nuCampers" id="Nucampers" >
                                     <option>Select...</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
@@ -121,36 +127,32 @@
                                     <option value="6">6</option>
                                 </select>
                             </div>
-                        
-                            <div>
-                                <label for="date">Date</label>
-                                <input type="date" class="form-control" id="date">
-                                
+                        <br>
+                            <div class="row">
+                                <label class="col-xs-12 col-sm-6" for="date">Date</label>
+                                <input type="date" class="form-control col-xs-12 col-sm-6" id="date">
                             </div>
                             
+                            <div>
                             <button type="button" class="btn btn-primary">Reserve</button>
-                            
-                        </div>
+                            </div>
                     </form>
-
                 </div>
         </div>
     </div>
 </div>
 
 
-
-
     <footer class="nucampFooter">
         <div class="container">
             <div class="row">             
-                <div class="col-4 col-sm-2 offset-1">
+                <div class="col-4 col-sm-2 text-center">
                     <h5>Links</h5>
                     <ul>
-                        <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i> About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Sites</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
+                        <a class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></a>
+                        <a class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i> About</a></a>
+                        <a class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Sites</a></a>
+                        <a class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></a>
                     </ul>
                 </div>
                 <div class="col-6 col-sm-5 text-center">

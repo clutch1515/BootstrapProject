@@ -94,7 +94,6 @@
     margin-bottom: 5%;
     padding-right: 5%;
     padding-left: 5%;
-    align-content: initial;
 }
 
 .bottomLine{
@@ -112,4 +111,17 @@
 
 .bottomForm{
     padding-bottom: 5%;
+}
+
+/* Media Form */
+@media all {
+    .form-box{
+        flex-direction: col;
+    }
+}
+
+@media all and (min-width: 500px){
+    .form-box{
+        flex-direction: row;
+    }
 }

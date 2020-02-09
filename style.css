@@ -50,3 +50,66 @@
 .navbar{
     background-color: #901cad;
 }
+.title{
+    font-family: 'kalam';
+    color: blue;
+}
+.headLine{
+    font-family: 'kalam';
+}
+
+.subText{
+
+}
+
+.descriptionContainer{
+    margin-top: 12%;
+    margin-bottom: 12%;
+
+}
+
+.labelSpacing{
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 30%;
+    margin-bottom: 30%;
+
+}
+
+.dwscriptionContainer{
+    margin-top: 0%;
+    margin-bottom: 0;
+
+}
+
+.topLine{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.middleLine{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    align-content: initial;
+}
+
+.bottomLine{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.reserveButton{
+    text-align: right;
+    padding-right: 10%;
+    
+}
+
+.bottomForm{
+    padding-bottom: 5%;
+}

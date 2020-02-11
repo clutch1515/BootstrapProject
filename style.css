@@ -113,15 +113,8 @@
     padding-bottom: 5%;
 }
 
-/* Media Form */
-@media all {
-    .form-box{
-        flex-direction: col;
-    }
-}
-
-@media all and (min-width: 500px){
-    .form-box{
-        flex-direction: row;
-    }
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
 }
